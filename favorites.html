@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jay's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <header>favorites.html</header>
+            <div id ="navMenu">
+                <a href="index.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/nature/star/planet2.gif">Index</a>
+                <a href="about.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/animals/bunny/bunny73.gif">About</a>
+                <a href="hobbies.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/object/hobby/palette.gif">Hobbies</a>
+                <a href="gallery.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/object/stationery/paper6.gif">Gallery</a>
+                <a href="dreams.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/nature/star/moon11.gif">Dreams</a>
+                <a href="playlist.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/object/tech/disc.gif">Playlist</a>
+                <a href="contact.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/object/tech/phone20.gif">Contact</a>
+            </div>
+            <div id="content">
+                <h3>My List of Favorites!</h3>
+                <div id="favList">
+                    <h4>Favorite Character:</h4>
+                    <div>
+                        <img src="style-n-misc/adachiRei.png" width="150px">
+                        <p><b>Adachi Rei</b></p>
+                        <p class="quote">"she is my favorite Japanese vocal synth!"</p>
+                    </div>
+                    <h4>Favorite Artist:</h4>
+                    <div>
+                        <img src="style-n-misc/beabadoobee.png" width="150px">
+                        <p><b>Beabadoobee</b></p>
+                        <p class="quote">"for three years straight, she has been my favorite artist."</p>
+                    </div>
+                    <h4>Favorite Game:</h4>
+                    <div>
+                        <img src="style-n-misc/tf2.png" width="150px">
+                        <p><b>Team Fortress 2</b></p>
+                        <p class="quote">"i may suck at PvP but VALVe makes charming characters."</p>
+                    </div>
+                    <h4>Favorite Movie(s):</h4>
+                    <div>
+                        <img src="style-n-misc/fightClub.png" width="150px"><img src="style-n-misc/spvtw.png" width="150px">
+                        <p><b>Fight Club & Scott Pilgrim vs. The World</b></p>
+                        <p class="quote">"as much as these films are polar opposites, they 
+                            both express a great commentary on masculinity, interpersonal conflict, and gradual acceptance."</p>
+                    </div>
+                    <h4>Favorite Book:</h4>
+                    <div>
+                        <img src="style-n-misc/fahrenheit451.png" width="150px">
+                        <p><b>Fahrenheit 451</b></p>
+                        <p class="quote">"interesting book about censorship, society, and personal dilemmas."</p>
+                    </div>
+                </div>
+                <p class="quote">"check these medias out yourself! i certify that they are all very cool. B)"</p>
+            </div>
+            <footer>2026</footer>
+        </div>
+    </body>
+</html>
+
+
+
+<style>
+
+body {
+    background-image: url(style-n-misc/blueTiledSingle.png);
+    background-size: 100px 100px;
+}
+.pixelify-sans-<uniquifier> {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+#container {
+    margin: 150px 300px 150px 300px;
+    border: #77aeed 4px solid;
+    border-radius: 35px;
+    padding: 25px;
+    box-shadow: 10px 10px #d4cbb6;
+
+    background-color: #408ade;
+    font-family: "Pixelify Sans";
+    color: wheat;
+}
+
+header {
+    font-style: italic;
+    font-size: large;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#navMenu {
+    border: #77aeed 2px solid;
+    margin: 0px;
+    padding: 15px;
+    font-size: small;
+    text-align: center;
+    a {
+        padding: 15px;
+        transition: background-color 0.5s;
+    }
+}
+
+.siteIcons{
+    display: inline-table;
+    flex-direction: column;
+    width: 30px;
+
+}
+
+a:hover{
+    background-color: #3764de;
+    color: #edd25a;
+    border-radius: 50px;
+}
+
+a:active{
+    background-color: #edd25a;
+    color:#3764de;
+    border-radius: 50px;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:visited:hover{
+        color:#edd25a;
+}
+
+#content{
+    padding: 10px 20px 20px 20px;
+}
+
+#favList{
+    text-align: center;
+    background-color: #77aeed;
+    padding: 15px 15px 30px 15px;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #77aeed;
+    color: white;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #container{
+        margin: 150px 150px 100px 150px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #container{
+        margin: 100px 50px 100px 50px;
+    }
+    .siteIcons{
+    width: 28px;
+    padding: 0px;
+    }
+}
+
+</style>

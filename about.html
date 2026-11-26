@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jay's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <header>about.html</header>
+            <div id ="navMenu">
+                <a href="index.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/nature/star/planet2.gif">Index</a>
+                <a href="hobbies.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/object/hobby/palette.gif">Hobbies</a>
+                <a href="gallery.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/object/stationery/paper6.gif">Gallery</a>
+                <a href="favorites.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/nature/star/star77.gif">Favorites</a>
+                <a href="dreams.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/nature/star/moon11.gif">Dreams</a>
+                <a href="playlist.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/object/tech/disc.gif">Playlist</a>
+                <a href="contact.html" class="siteIcons"><img class="siteIcons" src="https://pixelsafari.neocities.org/favicon/object/tech/phone20.gif">Contact</a>
+            </div>
+            <div id="content">
+                    <p>most call me Rain, but i prefer <b>Jay</b> or <b>RJ</b>.</p>
+                    <p>i was born in the <b>Philippines</b>, originally from <b>Negros Oriental</b>.</p>
+                    <p>i am currently a freshman in college, studying in Luzon, as a <b>Computer Science</b> student.</p>
+                    <p>i've had a long history of participating in campus journalism, 
+                        and overall, i am interested in literary media.</p>
+                    <p>as a computer science student, i do find it funny how, 
+                        despite my analytical and logical degree program, my interests revolve around anything artistic.</p>
+                    <h3>Fun Facts about Me!</h3>
+                    <ul>
+                        <li>turquoise is my favorite color!</li>
+                        <li>dark chocolate is my favorite kind of chocolate!</li>
+                        <li>i like to analyze all kinds of media!</li>
+                        <li>one of my phobias is losing one of my senses!</li>
+                        <li>i've never broken a bone in my life!</li>
+                    </ul>
+            </div>
+            <footer>2026</footer>
+        </div>
+    </body>
+</html>
+
+
+
+<style>
+
+body {
+    background-image: url(style-n-misc/blueTiledSingle.png);
+    background-size: 100px 100px;
+}
+.pixelify-sans-<uniquifier> {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+#container {
+    margin: 150px 300px 150px 300px;
+    border: #77aeed 4px solid;
+    border-radius: 35px;
+    padding: 25px;
+    box-shadow: 10px 10px #d4cbb6;
+
+    background-color: #408ade;
+    font-family: "Pixelify Sans";
+    color: wheat;
+}
+
+header {
+    font-style: italic;
+    font-size: large;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#navMenu {
+    border: #77aeed 2px solid;
+    margin: 0px;
+    padding: 15px;
+    font-size: small;
+    text-align: center;
+    a {
+        padding: 15px;
+        transition: background-color 0.5s;
+    }
+}
+
+.siteIcons{
+    display: inline-table;
+    flex-direction: column;
+    width: 30px;
+
+}
+
+a:hover{
+    background-color: #3764de;
+    color: #edd25a;
+    border-radius: 50px;
+}
+
+a:active{
+    background-color: #edd25a;
+    color:#3764de;
+    border-radius: 50px;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:visited:hover{
+        color:#edd25a;
+}
+
+#content{
+    padding: 20px 20px 20px 20px;
+}
+
+.comments{
+    color: #9ac8f5;
+}
+
+footer {
+    text-align: center;
+    background-color: #77aeed;
+    color: white;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #container{
+        margin: 150px 150px 100px 150px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #container{
+        margin: 100px 50px 100px 50px;
+    }
+    .siteIcons{
+    width: 28px;
+    padding: 0px;
+    }
+}
+
+</style>
